@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Calculation</title>
+</head>
+<body>
+    <script>
+        let base_salary = parseFloat(prompt("Enter base salary:"));
+
+        let HRA = base_salary * 0.10; 
+        let DA = base_salary * 0.05;  
+        let TA = base_salary * 0.08;  
+
+        let salary = base_salary + HRA + DA + TA;
+
+        console.log(`Total salary = ${salary}`);
+    </script>
+</body>
+</html>
